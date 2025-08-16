@@ -16,12 +16,18 @@ A simple desktop To-Do List Manager built using Java Swing. This project helps u
 
 🛠️ Tech Stack
 Language: Java
+
 GUI Toolkit: Swing (javax.swing, java.awt)
+
 JDK Version: Tested on JDK 23
+
 
 📂 Project Structure
 To_Do/
 │── CommonConst.java     # Centralized GUI size and layout constants
+
 │── Todo.java            # Main JFrame with task panel and add button
+
 │── TaskComponent.java   # Represents each task (checkbox + text + delete)
+
 │── App.java             # Entry point to run the project
